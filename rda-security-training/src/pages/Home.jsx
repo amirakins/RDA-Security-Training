@@ -11,6 +11,7 @@ import Jotform from './Waiver'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Sub from '../components/Sub'
 import DoubleButton from '../components/DoubleButton'
+import MailMunch from '../components/MailMunch'
 
 function Home() {
   return (
