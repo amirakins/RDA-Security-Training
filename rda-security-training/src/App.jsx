@@ -1,4 +1,4 @@
-//import './App.css'
+import './App.css'
 import AboutMe from './components/AboutMe'
 import BulletPoints from './components/BulletPoints'
 import Carousel from './components/Carousel'

@@ -12,7 +12,7 @@ function BookClass() {
         <Sub />
 
         <Link className="link-offset-2 link-underline link-underline-opacity-0" to="/waiver">
-        <div class="card mb-3" >
+        <div class="card mb-3 card-secondary card-hover" >
           <div class="row g-0">
             <div class="col-md-4">
               <img src={glock} class="img-fluid rounded-start" alt="handgun" />
@@ -37,7 +37,7 @@ function BookClass() {
         </div>
         </Link>
         <Link className="link-offset-2 link-underline link-underline-opacity-0" to="/waiver">
-        <div class="card mb-3" >
+        <div class="card mb-3 card-secondary card-hover" >
           <div class="row g-0">
             <div class="col-md-4">
               <img src={ar15} class="img-fluid rounded-start" alt="rifle" />

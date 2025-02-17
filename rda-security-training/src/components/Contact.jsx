@@ -82,7 +82,7 @@ function Contact() {
                 ></textarea>
               </div>
               <div className="d-grid gap-2">
-                <button type="submit" class="btn btn-primary">
+                <button type="submit" class="btn btn-dark">
                   Send
                 </button>
               </div>
@@ -104,7 +104,7 @@ function Contact() {
               <a
                 href="https://www.facebook.com/people/RDA-Security-Training/100063637385544/?mibextid=LQQJ4d"
                 target="_blank"
-                className="p-0"
+                className="p-0 link-dark"
               >
                 <span class="label">
                   <svg
@@ -122,7 +122,7 @@ function Contact() {
               <a
                 href="https://www.instagram.com/rdasecuritytraining/"
                 target="_blank"
-                className="p-3"
+                className="p-3 link-dark"
               >
                 <span class="label">
                   <svg
