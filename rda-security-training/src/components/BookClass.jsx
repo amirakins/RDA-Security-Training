@@ -2,6 +2,7 @@ import React from "react";
 import Sub from "./Sub";
 import glock from "../assets/glock.jpg";
 import ar15 from "../assets/ar15.jpg";
+import { Link } from 'react-router-dom';
 
 function BookClass() {
   return (
@@ -10,7 +11,7 @@ function BookClass() {
         <h1 className="text-center">Book A Class</h1>
         <Sub />
 
-        <a className="link-offset-2 link-underline link-underline-opacity-0" href="/payment" target="blank">
+        <Link className="link-offset-2 link-underline link-underline-opacity-0" href="/payment" target="blank">
         <div class="card mb-3" >
           <div class="row g-0">
             <div class="col-md-4">
@@ -34,8 +35,8 @@ function BookClass() {
             </div>
           </div>
         </div>
-        </a>
-        <a className="link-offset-2 link-underline link-underline-opacity-0" href="/payment" target="blank">
+        </Link>
+        <Link className="link-offset-2 link-underline link-underline-opacity-0" href="/payment" target="blank">
         <div class="card mb-3" >
           <div class="row g-0">
             <div class="col-md-4">
@@ -59,7 +60,7 @@ function BookClass() {
             </div>
           </div>
         </div>
-        </a>
+        </Link>
       </div>
     </>
   );

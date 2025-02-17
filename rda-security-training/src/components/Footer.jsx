@@ -1,13 +1,14 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
     <>
       <footer>
         <div class="d-grid gap-2 container">
-          <a class="link-dark text-center " href="/privacy" target="_blank">
+          <Link class="link-dark text-center " to="/privacy">
             Privacy
-          </a>
+          </Link>
         </div>
 
         <div class="container text-center">
