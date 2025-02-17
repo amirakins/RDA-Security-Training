@@ -3,6 +3,18 @@ import React, { useRef } from "react";
 function Contact() {
   const [result, setResult] = React.useState("");
 
+  let alert;
+
+  if(!result){
+    alert = null;
+  } else if(result == "Sending...."){
+    alert= <div class="alert alert-primary" role="alert">{result}</div>
+  } else if("Form Submitted Successfully"){
+    alert= <div class="alert alert-success" role="alert">{result}</div>
+  } else {
+    alert= <div class="alert alert-danger" role="alert">{result}</div>
+  }
+
   const onSubmit = async (event) => {
     event.preventDefault();
     setResult("Sending....");
@@ -69,13 +81,16 @@ function Contact() {
                   required
                 ></textarea>
               </div>
-              <div className="mb-3">
+              <div className="d-grid gap-2">
                 <button type="submit" class="btn btn-primary">
                   Send
                 </button>
               </div>
             </form>
-            <span>{result}</span>
+            <br></br>
+            <span>
+            {alert}
+            </span>
           </div>
 
           <div class="col-sm-4">
