@@ -4,41 +4,26 @@ import headshot from "../assets/headshot.png";
 function AboutMe() {
   return (
     <>
+      
+
+
+
       <div className="container">
         <h1 className="text-center">About Me</h1>
-        <img src={headshot} className="d-block w-25 m-auto" alt="headshot" />
-        <br/>
-        <strong>
-            <div class="row align-items-start">
-              <div class="col">Expert Marksman through the U.S. Air Force</div>
-              <div class="col">
-                Master Instructor Certification through the Georgia Peace
-                Officer Standards and Training Council
-              </div>
-              <div class="col">
-                Firearms Instructor Certification through the Georgia Peace
-                Officer Standards and Training Council
-              </div>
-            </div>
-          
-          <br />
-            <div class="row align-items-start">
-              <div class="col">
-                Expert Marksman through the Georgia Peace Officer Standards and
-                Training Council
-              </div>
-              <div class="col">
-                Defensive Tactics Instructor through the Georgia Department of
-                Community Supervision
-              </div>
-              <div class="col">
-                Use of Force Instructor through the Georgia Peace Officer
-                Standards and Training Council
-              </div>
-            </div>
-        </strong>
-        <br />
-
+        
+        <div class="row g-0">
+      <div class="col-6 col-md-4"><img src={headshot} className="d-block w-50 m-auto" alt="headshot" /></div>
+  <div class="col-sm-6 col-md-8">
+    <strong>
+      <p>Expert Marksman through the U.S. Air Force</p>
+      <p>Master Instructor Certification through the Georgia Peace Officer Standards and Training Council</p>
+      <p>Firearms Instructor Certification through the Georgia Peace Officer Standards and Training Council</p>
+      <p>Expert Marksman through the Georgia Peace Officer Standards and Training Council</p>
+      <p>Defensive Tactics Instructor through the Georgia Department of Community Supervision</p>
+      <p>Use of Force Instructor through the Georgia Peace Officer Standards and Training Council</p>
+      </strong>
+  </div>
+</div>
         <div className="container">
           <p>
             Rodney D. Akins brings a wealth of experience from three decades of

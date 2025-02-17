@@ -12,15 +12,15 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Sub from '../components/Sub'
 import DoubleButton from '../components/DoubleButton'
 import MailMunch from '../components/MailMunch'
+import BookClass from '../components/BookClass'
 
 function Home() {
   return (
     <>
       <Logo />
-      <Sub />
       <Carousel />
+      <BookClass />
       <BulletPoints />
-      <CourseBreakdown />
       <AboutMe />
       <Contact />
       <Footer />

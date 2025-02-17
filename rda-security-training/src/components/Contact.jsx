@@ -124,7 +124,6 @@ function Contact() {
                 </span>
               </a>
             </div>
-            <MailMunch />
           </div>
         </div>
       </div>

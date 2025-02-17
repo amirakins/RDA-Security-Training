@@ -5,7 +5,7 @@ function Logo() {
   return (
     <>
       <div class="container overflow-hidden text-center">
-        <img src={logo} class="d-block w-10 m-auto" alt="logo" />
+        <img src={logo} class="d-block w-10 m-auto py-3" alt="logo" />
       </div>
     </>
   );
