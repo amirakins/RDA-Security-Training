@@ -19,9 +19,9 @@ function App() {
     <BrowserRouter>
       <Routes> 
         <Route index element={<Home />}  />
-        <Route path="privacy" element={<Privacy />} />
-        <Route path="waiver" element={<Waiver />} />
-        <Route path="payment" element={<Payment />} />
+        <Route path="/privacy" element={<Privacy />} />
+        <Route path="/waiver" element={<Waiver />} />
+        <Route path="/payment" element={<Payment />} />
       </Routes>
     </BrowserRouter>
       
