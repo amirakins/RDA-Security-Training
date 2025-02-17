@@ -11,7 +11,7 @@ function BookClass() {
         <h1 className="text-center">Book A Class</h1>
         <Sub />
 
-        <Link className="link-offset-2 link-underline link-underline-opacity-0" href="/payment" target="blank">
+        <Link className="link-offset-2 link-underline link-underline-opacity-0" to="/waiver">
         <div class="card mb-3" >
           <div class="row g-0">
             <div class="col-md-4">
@@ -36,7 +36,7 @@ function BookClass() {
           </div>
         </div>
         </Link>
-        <Link className="link-offset-2 link-underline link-underline-opacity-0" href="/payment" target="blank">
+        <Link className="link-offset-2 link-underline link-underline-opacity-0" to="/waiver">
         <div class="card mb-3" >
           <div class="row g-0">
             <div class="col-md-4">

@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import Logo from "../components/Logo";
 
 function Waiver() {
   useEffect(() => {
@@ -12,7 +13,7 @@ function Waiver() {
     script.onload = () => {
       if (window.jotformEmbedHandler) {
         window.jotformEmbedHandler(
-          "iframe[id='JotFormIFrame-203105423219140']",
+          "iframe[id='JotFormIFrame-250471682532153']",
           "https://form.jotform.com/"
         );
       }
@@ -24,14 +25,17 @@ function Waiver() {
   }, []);
 
   return (
+    <>
+    <Logo />
     <iframe
-      id="JotFormIFrame-203105423219140"
+      id="JotFormIFrame-250471682532153"
       title="RDA Security Training Participation Waiver"
       onLoad={() => window.scrollTo(0, 0)}
       allow="geolocation; microphone; camera; fullscreen"
-      src="https://form.jotform.com/203105423219140"
+      src="https://form.jotform.com/250471682532153"
       style={{ minWidth: "100%", maxWidth: "100%", height: "600px", border: "none" }}
     ></iframe>
+    </>
   );
 }
 
