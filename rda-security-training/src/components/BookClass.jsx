@@ -19,18 +19,20 @@ function BookClass() {
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">Fundamentals of Marksmanship</h5>
+                <h5 class="card-title"><strong>Fundamentals of Marksmanship | $125</strong></h5>
                 <p class="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                This is a comprehensive basic handgun course designed for those who want to come away with a complete foundation of knowledge regarding the safe handling of handguns and basic marksmanship skills. 
+                This course includes a solid foundation of fundamental marksmanship skills and safe firearm handling practices.
                 </p>
-                <p class="card-text">
+                
+                <strong>Who Should Take This Course?</strong>
+                <p>Those who have little to no experience with firearms are ideal candidates for this course as are those who want an in-depth introduction to safe firearm handling and enough practice to leave the course with confidence in your handling skill of a firearm.
+                </p>
+                {/*<p class="card-text">
                   <small class="text-body-secondary">
                     $125
                   </small>
-                </p>
+                </p>*/}
               </div>
             </div>
           </div>
@@ -44,18 +46,19 @@ function BookClass() {
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">Basic Rifle Marksmanship</h5>
+                <h5 class="card-title"><strong>Basic Rifle Marksmanship | $125</strong></h5>
                 <p class="card-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
-                <p class="card-text">
+                <strong>Who Should Take This Course?</strong>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                {/*<p class="card-text">
                   <small class="text-body-secondary">
                     $125
                   </small>
-                </p>
+                </p>*/}
               </div>
             </div>
           </div>

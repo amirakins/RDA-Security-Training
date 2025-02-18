@@ -4,10 +4,6 @@ import headshot from "../assets/headshot.png";
 function AboutMe() {
   return (
     <>
-      
-
-
-
       <div className="container">
         <h1 className="text-center">About Me</h1>
         
@@ -15,12 +11,10 @@ function AboutMe() {
       <div class="col-6 col-md-4"><img src={headshot} className="d-block w-50 m-auto" alt="headshot" /></div>
   <div class="col-sm-6 col-md-8">
     <strong>
-      <p>Expert Marksman through the U.S. Air Force</p>
-      <p>Master Instructor Certification through the Georgia Peace Officer Standards and Training Council</p>
-      <p>Firearms Instructor Certification through the Georgia Peace Officer Standards and Training Council</p>
-      <p>Expert Marksman through the Georgia Peace Officer Standards and Training Council</p>
-      <p>Defensive Tactics Instructor through the Georgia Department of Community Supervision</p>
-      <p>Use of Force Instructor through the Georgia Peace Officer Standards and Training Council</p>
+      <p className="py-2">Master Instructor Certification through the Georgia Peace Officer Standards and Training Council</p>
+      <p className="py-2">Firearms Instructor Certification through the Georgia Peace Officer Standards and Training Council</p>
+      <p className="py-2">Defensive Tactics Instructor through the Georgia Department of Community Supervision</p>
+      <p className="py-2">Use of Force Instructor through the Georgia Peace Officer Standards and Training Council</p>
       </strong>
   </div>
 </div>
