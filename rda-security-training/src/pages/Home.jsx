@@ -15,12 +15,14 @@ import BookClass from "../components/BookClass";
 import CourseCard from "../components/CourseCard";
 import Glock from "../assets/glock.jpg";
 import Ar15 from "../assets/ar15.jpg"
+import EBook from "../components/EBook";
 
 function Home() {
   return (
     <>
       <Logo />
       <Carousel />
+      <EBook />
       <BookClass />
       <BulletPoints />
       <AboutMe />
