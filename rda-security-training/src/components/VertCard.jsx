@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-function CourseCard({link, img, name, desc, who, price}) {
+function CourseCard({link, img, name, desc, price}) {
   return (
     <>
       <Link className="link-offset-2 link-underline link-underline-opacity-0" to={link}>
@@ -14,8 +14,7 @@ function CourseCard({link, img, name, desc, who, price}) {
             {desc}
             </p>
 
-          <strong>Who Should Take This Course?</strong>
-          <p>{who}</p>
+          
         </div>
         <p class="card-text">
           <small class="text-body-secondary">{price}</small>
