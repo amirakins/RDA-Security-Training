@@ -3,6 +3,7 @@ import Sub from "./Sub";
 import Glock from "../assets/glock.jpg";
 import Ar15 from "../assets/ar15.jpg";
 import CourseCard from "./CourseCard";
+import PayPal from "./PayPal";
 
 function BookClass() {
   return (
@@ -10,7 +11,7 @@ function BookClass() {
       <div className="container">
         <h1 className="text-center">Book A Class</h1>
         <Sub />
-
+        
         <CourseCard
         link="/waiver"
         img={Glock}
@@ -29,7 +30,7 @@ function BookClass() {
         who="This course is ideal for individuals with little to no prior experience with rifles who wish to gain a solid understanding of how to use them effectively and safely."
         price="$125"
       />
-        
+        <PayPal />
       </div>
     </>
   );
